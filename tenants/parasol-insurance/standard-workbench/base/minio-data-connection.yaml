@@ -10,6 +10,8 @@ metadata:
     openshift.io/display-name: minio-data-connection
     argocd.argoproj.io/sync-wave: "-100"
 stringData:
-  username: minio
-  password: minio123
+  AWS_ACCESS_KEY_ID: minio
+  AWS_S3_ENDPOINT: https://minio-api-object-datastore.apps.cluster-7ftlm.7ftlm.sandbox1120.opentlc.com
+  AWS_SECRET_ACCESS_KEY: minio123
+  AWS_DEFAULT_REGION: east-1
 type: Opaque

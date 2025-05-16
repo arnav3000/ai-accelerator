@@ -4,7 +4,7 @@ metadata:
   name: minio-data-connection
   labels:
     opendatahub.io/dashboard: true
-    opendatahub.io/managed: "true"
+    opendatahub.io/managed: true
   annotations:
     opendatahub.io/connection-type: s3
     openshift.io/display-name: minio-data-connection

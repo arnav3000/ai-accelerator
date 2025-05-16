@@ -1,0 +1,13 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: minio-data-connection
+  labels:
+    <add RHOAI Dashbaord labels here>
+  annotations:
+    opendatahub.io/connection-type: s3
+    openshift.io/display-name: minio-data-connection
+    argocd.argoproj.io/sync-wave: "-100"
+stringData:
+  <add Keys and Values here>
+type: Opaque

@@ -1,0 +1,5 @@
+apiVersion: Kustomization
+kind: Kustomization
+namespace: object-datastore
+resources:
+  - ../../../../componensts/apps/minio/overlays/default

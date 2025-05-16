@@ -10,6 +10,6 @@ metadata:
     openshift.io/display-name: minio-data-connection
     argocd.argoproj.io/sync-wave: "-100"
 stringData:
-  key: minio
-  value: minio123
+  access-key: minio
+  secret-key: minio123
 type: Opaque

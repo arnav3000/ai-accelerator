@@ -14,4 +14,5 @@ stringData:
   AWS_S3_ENDPOINT: https://minio-api-object-datastore.apps.cluster-7ftlm.7ftlm.sandbox1120.opentlc.com
   AWS_SECRET_ACCESS_KEY: minio123
   AWS_DEFAULT_REGION: east-1
+  AWS_S3_BUCKET: multi-model
 type: Opaque
